@@ -138,7 +138,7 @@
         tools:layout_editor_absoluteY="369dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txtcedula"
         android:layout_width="236dp"
         android:layout_height="53dp"
         android:layout_marginStart="34dp"
@@ -149,15 +149,14 @@
         android:layout_y="53dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="example: 10068687"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintBottom_toTopOf="@+id/txtnombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/txtnombre"
         android:layout_width="233dp"
         android:layout_height="45dp"
         android:layout_marginStart="26dp"
@@ -169,13 +168,13 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        app:layout_constraintBottom_toTopOf="@+id/txtfacultad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/txtcedula" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/txtfacultad"
         android:layout_width="233dp"
         android:layout_height="45dp"
         android:layout_marginStart="25dp"
@@ -187,13 +186,13 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
+        app:layout_constraintBottom_toTopOf="@+id/txtapellido"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/txtapellido"
         android:layout_width="233dp"
         android:layout_height="45dp"
         android:layout_marginStart="23dp"
@@ -205,14 +204,14 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/spinner"
+        app:layout_constraintBottom_toTopOf="@+id/spinnersede"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/txtfacultad" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/txtprograma"
         android:layout_width="233dp"
         android:layout_height="45dp"
         android:layout_marginTop="14dp"
@@ -222,12 +221,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/spinner2"
-        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerestado"
+        app:layout_constraintTop_toBottomOf="@+id/spinnersede"
         tools:layout_editor_absoluteX="114dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/txtusuario"
         android:layout_width="233dp"
         android:layout_height="45dp"
         android:layout_marginTop="7dp"
@@ -237,12 +236,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:layout_constraintBottom_toTopOf="@+id/txtcontrasena"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerestado"
         tools:layout_editor_absoluteX="114dp" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinnersede"
         android:layout_width="235dp"
         android:layout_height="28dp"
         android:layout_marginStart="46dp"
@@ -251,38 +250,38 @@
         android:layout_marginBottom="14dp"
         android:layout_x="122dp"
         android:layout_y="292dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"
+        app:layout_constraintBottom_toTopOf="@+id/txtprograma"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/txtapellido" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spinnerestado"
         android:layout_width="227dp"
         android:layout_height="28dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="12dp"
         android:layout_x="124dp"
         android:layout_y="594dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
+        app:layout_constraintBottom_toTopOf="@+id/txtusuario"
+        app:layout_constraintTop_toBottomOf="@+id/txtprograma"
         tools:layout_editor_absoluteX="114dp" />
 
     <Spinner
-        android:id="@+id/spinner3"
+        android:id="@+id/spinnerrol"
         android:layout_width="238dp"
         android:layout_height="28dp"
         android:layout_marginTop="12dp"
         android:layout_marginBottom="41dp"
         android:layout_x="127dp"
         android:layout_y="413dp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnguardar"
+        app:layout_constraintTop_toBottomOf="@+id/txtcontrasena"
         tools:layout_editor_absoluteX="114dp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txtcontrasena"
         android:layout_width="232dp"
         android:layout_height="48dp"
         android:layout_marginTop="2dp"
@@ -291,12 +290,12 @@
         android:layout_y="524dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/spinner3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerrol"
+        app:layout_constraintTop_toBottomOf="@+id/txtusuario"
         tools:layout_editor_absoluteX="114dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnguardar"
         android:layout_width="297dp"
         android:layout_height="49dp"
         android:layout_marginTop="15dp"
@@ -304,13 +303,13 @@
         android:layout_x="58dp"
         android:layout_y="653dp"
         android:text="Guardar Usuario"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintBottom_toTopOf="@+id/btnmodificar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnconsultar"
         android:layout_width="297dp"
         android:layout_height="49dp"
         android:layout_marginTop="5dp"
@@ -321,10 +320,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/btnmodificar" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnmodificar"
         android:layout_width="297dp"
         android:layout_height="49dp"
         android:layout_marginTop="5dp"
@@ -332,9 +331,9 @@
         android:layout_x="55dp"
         android:layout_y="778dp"
         android:text="Modificar Usuario"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/btnconsultar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/btnguardar" />
 
 </AbsoluteLayout></ScrollView>
